@@ -1,0 +1,1 @@
+Crier is an open-source landing page for promoting and embedding a browser-based MMO.

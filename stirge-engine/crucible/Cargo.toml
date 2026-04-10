@@ -1,0 +1,17 @@
+[package]
+name = "crucible"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+# Logging
+tracing = "0.1"
+tracing-subscriber = "0.3.0"
+
+# WebSocket
+tungstenite = "0.20"
+
+# Async runtime
+tokio = { version = "1", features = ["full"] }
+tokio-tungstenite = "0.20"
