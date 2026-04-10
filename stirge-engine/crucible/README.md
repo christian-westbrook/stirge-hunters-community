@@ -1,1 +1,1 @@
-Crucible is an open-source MMO server.
+Crucible is the open-source MMO server powering Stirge Hunters.
