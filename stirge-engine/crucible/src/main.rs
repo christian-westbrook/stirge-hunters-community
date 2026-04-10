@@ -16,6 +16,7 @@ fn main() {
     intro();
 }
 
+// Prints an intro message to the command-line
 fn intro() {
 	print!("\n");
 	print!("     _,-'\"`-._,-'\"`-._,-'\"`-._\n");
