@@ -1,0 +1,1 @@
+This directory contains the collection of services that comprise an MMO built with Stirge Engine.
