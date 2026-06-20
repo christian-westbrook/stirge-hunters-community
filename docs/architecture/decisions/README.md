@@ -1,0 +1,1 @@
+This directory contains a log of architectural decision records in [MADR](https://adr.github.io/madr/) format.
