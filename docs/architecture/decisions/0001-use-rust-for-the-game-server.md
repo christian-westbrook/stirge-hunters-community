@@ -2,7 +2,7 @@
 
 ## Context and Problem Statement
 
-I needed to build an MMO game server capable of supporting thousands of simultaneously playing players. The programming language chosen would have a big impact on the server's performance and maintainability.
+I needed to build an MMO game server capable of supporting thousands of simultaneously connected players. The programming language chosen would have a big impact on server performance and maintainability.
 
 ## Considered Options
 
