@@ -31,4 +31,4 @@ jobs:
 
       - name: Lint the `game` service
         working-directory: ./stirge-engine/services/game
-        run: cargo clippy -- -D warnings
+        run: cargo clippy --all-targets -- -D warnings
