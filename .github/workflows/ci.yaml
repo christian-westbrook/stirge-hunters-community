@@ -10,4 +10,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Format the `game` service
-        run: cargo fmt check
+        run: cargo fmt --check
