@@ -1,0 +1,12 @@
+name: Continuous Integration
+
+on: push
+
+jobs:
+  format:
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Format the `game` service
+        run: cargo fmt check
