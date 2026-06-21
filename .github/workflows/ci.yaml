@@ -11,6 +11,8 @@ jobs:
 
       - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt
 
       - name: Format the `game` service
         working-directory: ./stirge-engine/services/game
