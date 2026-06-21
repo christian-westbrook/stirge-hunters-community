@@ -13,4 +13,5 @@ jobs:
         uses: dtolnay/rust-toolchain@stable
 
       - name: Format the `game` service
+        working-directory: ./stirge-engine/services/game
         run: cargo fmt --check
