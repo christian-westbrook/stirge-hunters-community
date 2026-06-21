@@ -1,0 +1,1 @@
+This directory contains Stirge Engine, a tool for building RSClike MMOs.
