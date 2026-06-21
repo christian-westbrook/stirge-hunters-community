@@ -1,5 +1,19 @@
-fn main() {
+//! An RSClike MMO engine.
+
+#![warn(missing_docs)]
+
+use game::game::Game;
+
+#[tokio::main]
+async fn main() {
+
     intro();
+	
+	let game = Game{};
+
+	tokio::join!(
+        game.start(),
+    );
 }
 
 fn intro() {
