@@ -8,9 +8,9 @@ use game::game::Game;
 async fn main() {
     intro();
 
-    let game = Game {};
+          let game = Game {};
 
-    tokio::join!(game.start(),);
+                 tokio::join!(game.start(),);
 }
 
 fn intro() {
