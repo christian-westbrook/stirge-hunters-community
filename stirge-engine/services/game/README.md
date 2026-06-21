@@ -1,0 +1,1 @@
+This directory contains the `game` service that provides an MMO game server.
