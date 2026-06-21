@@ -1,0 +1,19 @@
+name: Continuous Integration
+
+on: push
+
+jobs:
+  format:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt
+
+      - name: Format the `game` service
+        working-directory: ./stirge-engine/services/game
+        run: cargo fmt --check
